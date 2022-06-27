@@ -50,7 +50,11 @@ class Accounts{
     }
     
     func UpdateAcc(acc: SteamAccount){
-        let index = accList.firstIndex{$0.id == acc.id}!
-        accList[index] = acc
+        if let index = accList.firstIndex(where: {$0.id == acc.id}){
+            accList[index] = acc
+        }
+        else{
+            accList.append(acc)
+        }
     }
 }

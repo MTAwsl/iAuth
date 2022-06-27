@@ -66,12 +66,13 @@ struct CodeListView: View {
                             bEditView = true
                         }
                         Button("Delete"){
+                            selectedAcc = acc
                             bDeleteAlert = true
                         }
                     }.confirmationDialog("Confirm Deleteion", isPresented:$bDeleteAlert){
                         Button("Delete", role: .destructive) {
                             withAnimation(.easeInOut) {
-                                Accounts.shared.remove(acc: acc)
+                                Accounts.shared.remove(acc: selectedAcc!)
                             }
                         }
                     }message:{
@@ -110,8 +111,8 @@ struct CodeListView: View {
             viewModel.UpdateCodes()
         }.toolbar{
             Button("+"){
- 
-                
+                selectedAcc = SteamAccount(name: "New Account", key: "ExampleKey==")
+                bEditView = true
             }.frame(alignment: .topTrailing).padding(.trailing, 10)
         }.navigationTitle("Authenticator")
     }
