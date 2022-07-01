@@ -7,34 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25002133286C3524008C287B /* RSA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25002131286C3524008C287B /* RSA.swift */; };
 		2523A724285B2AB700A434A0 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2523A723285B2AB700A434A0 /* Tests_iOS.swift */; };
 		2523A726285B2AB700A434A0 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2523A725285B2AB700A434A0 /* Tests_iOSLaunchTests.swift */; };
 		2523A730285B2AB700A434A0 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2523A72F285B2AB700A434A0 /* Tests_macOS.swift */; };
 		2523A732285B2AB700A434A0 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2523A731285B2AB700A434A0 /* Tests_macOSLaunchTests.swift */; };
-		2523A733285B2AB700A434A0 /* SteamAuthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2523A70B285B2AB500A434A0 /* SteamAuthApp.swift */; };
 		2523A734285B2AB700A434A0 /* SteamAuthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2523A70B285B2AB500A434A0 /* SteamAuthApp.swift */; };
-		2523A735285B2AB700A434A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2523A70C285B2AB500A434A0 /* ContentView.swift */; };
 		2523A736285B2AB700A434A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2523A70C285B2AB500A434A0 /* ContentView.swift */; };
-		2523A737285B2AB700A434A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2523A70D285B2AB700A434A0 /* Assets.xcassets */; };
 		2523A738285B2AB700A434A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2523A70D285B2AB700A434A0 /* Assets.xcassets */; };
-		254AF3172861E0C5002BDB70 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254AF3162861E0C5002BDB70 /* AuthView.swift */; };
 		254AF3182861E0C5002BDB70 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254AF3162861E0C5002BDB70 /* AuthView.swift */; };
-		254AF31A2861E905002BDB70 /* Accounts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254AF3192861E905002BDB70 /* Accounts.swift */; };
 		254AF31B2861E905002BDB70 /* Accounts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254AF3192861E905002BDB70 /* Accounts.swift */; };
-		254AF31D28681D37002BDB70 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254AF31C28681D37002BDB70 /* EditView.swift */; };
 		254AF31E28681D37002BDB70 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254AF31C28681D37002BDB70 /* EditView.swift */; };
-		25F87A99285EDFB4004C217B /* Authenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F87A98285EDFB4004C217B /* Authenticator.swift */; };
 		25F87A9A285EDFB4004C217B /* Authenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F87A98285EDFB4004C217B /* Authenticator.swift */; };
+		6CBAF80812EA2B745EB122DB /* Pods_SteamAuth__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A4A62873F9D851171F36C2 /* Pods_SteamAuth__macOS_.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2523A720285B2AB700A434A0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2523A706285B2AB500A434A0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2523A711285B2AB700A434A0;
-			remoteInfo = "SteamAuth (iOS)";
-		};
 		2523A72C285B2AB700A434A0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2523A706285B2AB500A434A0 /* Project object */;
@@ -45,10 +33,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25002131286C3524008C287B /* RSA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSA.swift; sourceTree = "<group>"; };
 		2523A70B285B2AB500A434A0 /* SteamAuthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteamAuthApp.swift; sourceTree = "<group>"; };
 		2523A70C285B2AB500A434A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2523A70D285B2AB700A434A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2523A712285B2AB700A434A0 /* SteamAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SteamAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2523A718285B2AB700A434A0 /* SteamAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SteamAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2523A71A285B2AB700A434A0 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		2523A71F285B2AB700A434A0 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,20 +49,20 @@
 		254AF3192861E905002BDB70 /* Accounts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accounts.swift; sourceTree = "<group>"; };
 		254AF31C28681D37002BDB70 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 		25F87A98285EDFB4004C217B /* Authenticator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authenticator.swift; sourceTree = "<group>"; };
+		416274EEB81AF3FC8ECD3F71 /* Pods-SteamAuth (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SteamAuth (macOS).debug.xcconfig"; path = "Target Support Files/Pods-SteamAuth (macOS)/Pods-SteamAuth (macOS).debug.xcconfig"; sourceTree = "<group>"; };
+		55A6E1F06EF95B90C11CD2EA /* Pods_SteamAuth__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SteamAuth__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59A4A62873F9D851171F36C2 /* Pods_SteamAuth__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SteamAuth__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E9F3938EBBE661A82A76848 /* Pods-SteamAuth (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SteamAuth (iOS).debug.xcconfig"; path = "Target Support Files/Pods-SteamAuth (iOS)/Pods-SteamAuth (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		C9B6293D6C6F4EBC026669D6 /* Pods-SteamAuth (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SteamAuth (iOS).release.xcconfig"; path = "Target Support Files/Pods-SteamAuth (iOS)/Pods-SteamAuth (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		DAEE273B960790A4A0CB9A06 /* Pods-SteamAuth (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SteamAuth (macOS).release.xcconfig"; path = "Target Support Files/Pods-SteamAuth (macOS)/Pods-SteamAuth (macOS).release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2523A70F285B2AB700A434A0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2523A715285B2AB700A434A0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CBAF80812EA2B745EB122DB /* Pods_SteamAuth__macOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +83,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E3FA67EC0C961415AAA7217 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55A6E1F06EF95B90C11CD2EA /* Pods_SteamAuth__iOS_.framework */,
+				59A4A62873F9D851171F36C2 /* Pods_SteamAuth__macOS_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2523A705285B2AB500A434A0 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +100,8 @@
 				2523A722285B2AB700A434A0 /* Tests iOS */,
 				2523A72E285B2AB700A434A0 /* Tests macOS */,
 				2523A713285B2AB700A434A0 /* Products */,
+				523FBC3298A03D349C4C3993 /* Pods */,
+				0E3FA67EC0C961415AAA7217 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,6 +114,7 @@
 				254AF31C28681D37002BDB70 /* EditView.swift */,
 				25F87A98285EDFB4004C217B /* Authenticator.swift */,
 				2523A70D285B2AB700A434A0 /* Assets.xcassets */,
+				25002131286C3524008C287B /* RSA.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -122,7 +122,6 @@
 		2523A713285B2AB700A434A0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2523A712285B2AB700A434A0 /* SteamAuth.app */,
 				2523A718285B2AB700A434A0 /* SteamAuth.app */,
 				2523A71F285B2AB700A434A0 /* Tests iOS.xctest */,
 				2523A72B285B2AB700A434A0 /* Tests macOS.xctest */,
@@ -157,33 +156,29 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		523FBC3298A03D349C4C3993 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E9F3938EBBE661A82A76848 /* Pods-SteamAuth (iOS).debug.xcconfig */,
+				C9B6293D6C6F4EBC026669D6 /* Pods-SteamAuth (iOS).release.xcconfig */,
+				416274EEB81AF3FC8ECD3F71 /* Pods-SteamAuth (macOS).debug.xcconfig */,
+				DAEE273B960790A4A0CB9A06 /* Pods-SteamAuth (macOS).release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2523A711285B2AB700A434A0 /* SteamAuth (iOS) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2523A73B285B2AB700A434A0 /* Build configuration list for PBXNativeTarget "SteamAuth (iOS)" */;
-			buildPhases = (
-				2523A70E285B2AB700A434A0 /* Sources */,
-				2523A70F285B2AB700A434A0 /* Frameworks */,
-				2523A710285B2AB700A434A0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "SteamAuth (iOS)";
-			productName = "SteamAuth (iOS)";
-			productReference = 2523A712285B2AB700A434A0 /* SteamAuth.app */;
-			productType = "com.apple.product-type.application";
-		};
 		2523A717285B2AB700A434A0 /* SteamAuth (macOS) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2523A73E285B2AB700A434A0 /* Build configuration list for PBXNativeTarget "SteamAuth (macOS)" */;
 			buildPhases = (
+				C5468A74F574C0862062F106 /* [CP] Check Pods Manifest.lock */,
 				2523A714285B2AB700A434A0 /* Sources */,
 				2523A715285B2AB700A434A0 /* Frameworks */,
 				2523A716285B2AB700A434A0 /* Resources */,
+				D62D4D3037C76E7D5B25D3A6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -205,7 +200,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				2523A721285B2AB700A434A0 /* PBXTargetDependency */,
 			);
 			name = "Tests iOS";
 			productName = "Tests iOS";
@@ -240,9 +234,6 @@
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					2523A711285B2AB700A434A0 = {
-						CreatedOnToolsVersion = 13.4.1;
-					};
 					2523A717285B2AB700A434A0 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
@@ -269,7 +260,6 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2523A711285B2AB700A434A0 /* SteamAuth (iOS) */,
 				2523A717285B2AB700A434A0 /* SteamAuth (macOS) */,
 				2523A71E285B2AB700A434A0 /* Tests iOS */,
 				2523A72A285B2AB700A434A0 /* Tests macOS */,
@@ -278,14 +268,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2523A710285B2AB700A434A0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2523A737285B2AB700A434A0 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2523A716285B2AB700A434A0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -310,20 +292,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXSourcesBuildPhase section */
-		2523A70E285B2AB700A434A0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+/* Begin PBXShellScriptBuildPhase section */
+		C5468A74F574C0862062F106 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2523A735285B2AB700A434A0 /* ContentView.swift in Sources */,
-				2523A733285B2AB700A434A0 /* SteamAuthApp.swift in Sources */,
-				254AF31D28681D37002BDB70 /* EditView.swift in Sources */,
-				254AF31A2861E905002BDB70 /* Accounts.swift in Sources */,
-				254AF3172861E0C5002BDB70 /* AuthView.swift in Sources */,
-				25F87A99285EDFB4004C217B /* Authenticator.swift in Sources */,
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SteamAuth (macOS)-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
+		D62D4D3037C76E7D5B25D3A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SteamAuth (macOS)/Pods-SteamAuth (macOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SteamAuth (macOS)/Pods-SteamAuth (macOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SteamAuth (macOS)/Pods-SteamAuth (macOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
 		2523A714285B2AB700A434A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -331,6 +342,7 @@
 				2523A736285B2AB700A434A0 /* ContentView.swift in Sources */,
 				2523A734285B2AB700A434A0 /* SteamAuthApp.swift in Sources */,
 				254AF31E28681D37002BDB70 /* EditView.swift in Sources */,
+				25002133286C3524008C287B /* RSA.swift in Sources */,
 				254AF31B2861E905002BDB70 /* Accounts.swift in Sources */,
 				254AF3182861E0C5002BDB70 /* AuthView.swift in Sources */,
 				25F87A9A285EDFB4004C217B /* Authenticator.swift in Sources */,
@@ -358,11 +370,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2523A721285B2AB700A434A0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2523A711285B2AB700A434A0 /* SteamAuth (iOS) */;
-			targetProxy = 2523A720285B2AB700A434A0 /* PBXContainerItemProxy */;
-		};
 		2523A72D285B2AB700A434A0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 2523A717285B2AB700A434A0 /* SteamAuth (macOS) */;
@@ -480,67 +487,9 @@
 			};
 			name = Release;
 		};
-		2523A73C285B2AB700A434A0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = rip.awsl.SteamAuth;
-				PRODUCT_NAME = SteamAuth;
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		2523A73D285B2AB700A434A0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = rip.awsl.SteamAuth;
-				PRODUCT_NAME = SteamAuth;
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		2523A73F285B2AB700A434A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 416274EEB81AF3FC8ECD3F71 /* Pods-SteamAuth (macOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -567,6 +516,7 @@
 		};
 		2523A740285B2AB700A434A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAEE273B960790A4A0CB9A06 /* Pods-SteamAuth (macOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -674,15 +624,6 @@
 			buildConfigurations = (
 				2523A739285B2AB700A434A0 /* Debug */,
 				2523A73A285B2AB700A434A0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2523A73B285B2AB700A434A0 /* Build configuration list for PBXNativeTarget "SteamAuth (iOS)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2523A73C285B2AB700A434A0 /* Debug */,
-				2523A73D285B2AB700A434A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
