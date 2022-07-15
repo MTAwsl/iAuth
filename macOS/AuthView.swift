@@ -115,29 +115,6 @@ struct CodeListView: View {
                 bEditView = true
             }.frame(alignment: .topTrailing).padding(.trailing, 10)
         }.navigationTitle("Authenticator")
-        
-        Button("TEST"){
-            let cli = SteamClient(sharedsec: "---REDACTED---", username: "---REDACTED---", password: "---REDACTED---", identitySecret: "---REDACTED---", deviceId: "---REDACTED---")
-            Task{
-                var result = await cli.Login()
-                while result != .LoginOkay{
-                    if result == .LoginOkay{
-                        print("LoginSuccessful!")
-                        break
-                    }
-                    if result == .NeedCaptcha{
-                        print("Captcha GID: \(cli.captchaGid()!)")
-                        print("Link: https://steamcommunity.com/public/captcha.php?gid=\(cli.captchaGid()!)")
-                        print("Message: \(cli.getMessage()!)")
-                        result = await cli.Login(captchaId: cli.captchaGid()!, captchaText: readLine())
-                    }
-                    else{
-                        print("Message: \(cli.getMessage()!)")
-                    }
-                }
-                try await cli.GetConfirmations()
-            }
-        }
     }
 }
 

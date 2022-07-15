@@ -19,7 +19,6 @@
 		254AF31B2861E905002BDB70 /* Accounts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254AF3192861E905002BDB70 /* Accounts.swift */; };
 		254AF31E28681D37002BDB70 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254AF31C28681D37002BDB70 /* EditView.swift */; };
 		25F87A9A285EDFB4004C217B /* Authenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F87A98285EDFB4004C217B /* Authenticator.swift */; };
-		6CBAF80812EA2B745EB122DB /* Pods_SteamAuth__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A4A62873F9D851171F36C2 /* Pods_SteamAuth__macOS_.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,12 +48,6 @@
 		254AF3192861E905002BDB70 /* Accounts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accounts.swift; sourceTree = "<group>"; };
 		254AF31C28681D37002BDB70 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 		25F87A98285EDFB4004C217B /* Authenticator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authenticator.swift; sourceTree = "<group>"; };
-		416274EEB81AF3FC8ECD3F71 /* Pods-SteamAuth (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SteamAuth (macOS).debug.xcconfig"; path = "Target Support Files/Pods-SteamAuth (macOS)/Pods-SteamAuth (macOS).debug.xcconfig"; sourceTree = "<group>"; };
-		55A6E1F06EF95B90C11CD2EA /* Pods_SteamAuth__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SteamAuth__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		59A4A62873F9D851171F36C2 /* Pods_SteamAuth__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SteamAuth__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9E9F3938EBBE661A82A76848 /* Pods-SteamAuth (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SteamAuth (iOS).debug.xcconfig"; path = "Target Support Files/Pods-SteamAuth (iOS)/Pods-SteamAuth (iOS).debug.xcconfig"; sourceTree = "<group>"; };
-		C9B6293D6C6F4EBC026669D6 /* Pods-SteamAuth (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SteamAuth (iOS).release.xcconfig"; path = "Target Support Files/Pods-SteamAuth (iOS)/Pods-SteamAuth (iOS).release.xcconfig"; sourceTree = "<group>"; };
-		DAEE273B960790A4A0CB9A06 /* Pods-SteamAuth (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SteamAuth (macOS).release.xcconfig"; path = "Target Support Files/Pods-SteamAuth (macOS)/Pods-SteamAuth (macOS).release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +55,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CBAF80812EA2B745EB122DB /* Pods_SteamAuth__macOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,15 +75,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0E3FA67EC0C961415AAA7217 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				55A6E1F06EF95B90C11CD2EA /* Pods_SteamAuth__iOS_.framework */,
-				59A4A62873F9D851171F36C2 /* Pods_SteamAuth__macOS_.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		2523A705285B2AB500A434A0 = {
 			isa = PBXGroup;
 			children = (
@@ -100,8 +83,6 @@
 				2523A722285B2AB700A434A0 /* Tests iOS */,
 				2523A72E285B2AB700A434A0 /* Tests macOS */,
 				2523A713285B2AB700A434A0 /* Products */,
-				523FBC3298A03D349C4C3993 /* Pods */,
-				0E3FA67EC0C961415AAA7217 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -156,17 +137,6 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
-		523FBC3298A03D349C4C3993 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				9E9F3938EBBE661A82A76848 /* Pods-SteamAuth (iOS).debug.xcconfig */,
-				C9B6293D6C6F4EBC026669D6 /* Pods-SteamAuth (iOS).release.xcconfig */,
-				416274EEB81AF3FC8ECD3F71 /* Pods-SteamAuth (macOS).debug.xcconfig */,
-				DAEE273B960790A4A0CB9A06 /* Pods-SteamAuth (macOS).release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -174,11 +144,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2523A73E285B2AB700A434A0 /* Build configuration list for PBXNativeTarget "SteamAuth (macOS)" */;
 			buildPhases = (
-				C5468A74F574C0862062F106 /* [CP] Check Pods Manifest.lock */,
 				2523A714285B2AB700A434A0 /* Sources */,
 				2523A715285B2AB700A434A0 /* Frameworks */,
 				2523A716285B2AB700A434A0 /* Resources */,
-				D62D4D3037C76E7D5B25D3A6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -291,48 +259,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		C5468A74F574C0862062F106 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SteamAuth (macOS)-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D62D4D3037C76E7D5B25D3A6 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SteamAuth (macOS)/Pods-SteamAuth (macOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SteamAuth (macOS)/Pods-SteamAuth (macOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SteamAuth (macOS)/Pods-SteamAuth (macOS)-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2523A714285B2AB700A434A0 /* Sources */ = {
@@ -489,7 +415,6 @@
 		};
 		2523A73F285B2AB700A434A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 416274EEB81AF3FC8ECD3F71 /* Pods-SteamAuth (macOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -516,7 +441,6 @@
 		};
 		2523A740285B2AB700A434A0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DAEE273B960790A4A0CB9A06 /* Pods-SteamAuth (macOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

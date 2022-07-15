@@ -6,35 +6,8 @@
 //
 
 import Foundation
-import BigInt
 
 class RSA{
-    static func encrypt(string: String, mod: String, exp: String) -> String
-    {
-        let secret = pkcs1pad2(data: string.data(using: .utf8)!, keySize: mod.count / 2)!
-        return secret.power(BigUInt(exp, radix: 16)!, modulus: BigUInt(mod, radix: 16)!).serialize().base64EncodedString()
-    }
-    
-    static func pkcs1pad2(data: Data, keySize: Int) -> BigUInt?{
-        if (keySize < data.count + 11){
-            return nil;
-        }
-        var rndData: [UInt8] = [UInt8](repeating: 0, count: keySize - 3 - data.count)
-        let status = SecRandomCopyBytes(kSecRandomDefault, rndData.count, &rndData)
-        for i in 0..<rndData.count{
-            if rndData[i] == 0{
-                rndData[i] = UInt8(i+1)
-            }
-        }
-        guard status == errSecSuccess else{
-            return nil
-        }
-        
-        return BigUInt(Data([0x00, 0x02]) + Data(rndData) + Data([0x00]) + data)
-    }
-}
-
-class RSA2{
     static func rsaPublicKeyder(mod: String, exp: String) -> String{
         
         func prepadSigned(hexStr: String) -> String? {
